@@ -16,12 +16,7 @@ add_compile_definitions(
 
 add_library(snmppp STATIC "${allfiles}")
 
-
 target_include_directories(snmppp PUBLIC "./include/")
-#target_include_directories(snmppp PUBLIC "./../libdes/src/")
-target_include_directories(snmppp PUBLIC "./../vs2013/SNMP++/include/")
-
-target_link_libraries(snmppp PUBLIC libdes)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

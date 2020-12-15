@@ -308,7 +308,7 @@
 /* #undef _NO_SNMPv3 */
 
 /* define _SNMPv3 if you want to use SNMPv3 */
-#define _SNMPv3 1
+//#define _SNMPv3 1
 
 /* Define for Solaris 2.5.1 so the uint32_t typedef from <sys/synch.h>,
    <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the
